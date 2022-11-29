@@ -1,0 +1,35 @@
+// VARIABLES
+@import './styles/utils/variables';
+
+// COMMON RULES
+@import './styles/base/commun-rules.scss';
+
+// KEYFRAMES
+@import './styles/utils/keyframes';
+
+// HEADER
+@import './Components/Header/header';
+
+// NAVBAR
+@import './Components/Header/Navbar/navbar';
+
+// MAIN
+@import './Components/Body/main';
+
+// PROFIL
+@import './Components/Body/Profil/profil';
+
+// EXPERIENCES
+@import './Components/Body/Experiences/experiences';
+
+// COMPETENCES
+@import './Components/Body/Compétences/competences';
+
+// PORTFOLIO
+@import './Components/Body/Portfolio/portfolio';
+
+// PROJECT'S CARD
+@import './Components/Body/Portfolio/ProjectCard/project-card';
+
+// CONTACT
+@import './Components/Body/Contact/contact';
