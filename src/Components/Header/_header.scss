@@ -1,0 +1,9 @@
+.header {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+// Overwriting the color of the AppBar component
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+   background-color: white !important;
+}
