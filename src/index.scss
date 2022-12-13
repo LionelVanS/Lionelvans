@@ -4,6 +4,9 @@
 // COMMON RULES
 @import './styles/base/commun-rules.scss';
 
+// MIXINS
+@import './styles/utils/mixins';
+
 // KEYFRAMES
 @import './styles/utils/keyframes';
 
@@ -22,6 +25,9 @@
 // EXPERIENCES
 @import './Components/Body/Experiences/experiences';
 
+// EXPERIENCES'S CARDS
+@import './Components/Body/Experiences/ExperiencesCard/experiences-card';
+
 // COMPETENCES
 @import './Components/Body/Compétences/competences';
 
@@ -30,6 +36,9 @@
 
 // PROJECT'S CARD
 @import './Components/Body/Portfolio/ProjectCard/project-card';
+
+// PROJECT'S MODAL
+@import './Components/Body/Portfolio/ProjectModal/project-modal';
 
 // CONTACT
 @import './Components/Body/Contact/contact';
