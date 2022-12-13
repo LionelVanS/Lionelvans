@@ -12,7 +12,7 @@ const Navbar = () => {
                   spy={true}
                   smooth={true}
                   offset={-70}
-                  duration={400}
+                  duration={500}
                >
                   Profil
                </Link>
@@ -24,7 +24,7 @@ const Navbar = () => {
                   spy={true}
                   smooth={true}
                   offset={-50}
-                  duration={400}
+                  duration={500}
                >
                   Parcours
                </Link>
@@ -36,7 +36,7 @@ const Navbar = () => {
                   spy={true}
                   smooth={true}
                   offset={-50}
-                  duration={400}
+                  duration={500}
                >
                   Compétences
                </Link>
@@ -48,7 +48,7 @@ const Navbar = () => {
                   spy={true}
                   smooth={true}
                   offset={-50}
-                  duration={400}
+                  duration={500}
                >
                   Portfolio
                </Link>
@@ -60,7 +60,7 @@ const Navbar = () => {
                   spy={true}
                   smooth={true}
                   offset={-50}
-                  duration={400}
+                  duration={500}
                >
                   Me Contacter
                </Link>

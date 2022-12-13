@@ -1,6 +1,7 @@
 .Navbar {
    & ul {
       display: flex;
+      align-items: baseline;
       padding: 0;
    }
 
@@ -18,9 +19,19 @@
                right: 0;
                left: 0;
                top: 1.7rem;
-               border-bottom: 0.5rem solid $color-primary;
+               border-bottom: 0.3rem solid $color-primary;
             }
          }
       }
+   }
+}
+
+.active {
+   font-size: 20px;
+   font-weight: 900;
+   transition: font-size 150ms;
+   text-decoration: underline;
+   &:hover {
+      text-decoration: none;
    }
 }
