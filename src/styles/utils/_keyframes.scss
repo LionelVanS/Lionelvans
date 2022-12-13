@@ -1,0 +1,25 @@
+@keyframes wiggle {
+   0%,
+   7% {
+      transform: rotateZ(0);
+   }
+   15% {
+      transform: rotateZ(-45deg);
+   }
+   20% {
+      transform: rotateZ(40deg);
+   }
+   25% {
+      transform: rotateZ(-30deg);
+   }
+   30% {
+      transform: rotateZ(20deg);
+   }
+   35% {
+      transform: rotateZ(-15deg);
+   }
+   40%,
+   100% {
+      transform: rotateZ(0);
+   }
+}
