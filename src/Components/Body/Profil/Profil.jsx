@@ -8,6 +8,7 @@ import ProfilDataText from './ProfilDataText/ProfilDataText';
 
 //MUI
 import { Box, Container } from '@mui/material';
+import ProfilBackground from './ProfilBackground/ProfilBackground';
 
 const Profil = () => {
    // Function to open file 'Mon CV'
@@ -36,9 +37,7 @@ const Profil = () => {
                </div>
             </Container>
 
-            <div className="profil-container__background">
-               <img src="./assets/images/background.jpg" alt="background" />
-            </div>
+            <ProfilBackground />
          </Box>
       </>
    );
