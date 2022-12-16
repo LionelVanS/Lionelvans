@@ -2,13 +2,14 @@ import React from 'react';
 
 // COMPONENTS
 import ProfilText from './ProfilText/ProfilText';
-import ProfilAsideTitle from './ProfilAside/ProfilAsideTitle/ProfilAsideTitle';
-import ProfilAsideLink from './ProfilAside/ProfilAsideLink/ProfilAsideLink';
+import ProfilTitle from './ProfilTitle/ProfilTitle';
+import ProfilLink from './ProfilLink/ProfilLink';
 import ProfilDataText from './ProfilDataText/ProfilDataText';
+import ProfilDarkMode from './ProfilDarkMode/ProfilDarkMode';
+import ProfilBackground from './ProfilBackground/ProfilBackground';
 
 //MUI
 import { Box, Container } from '@mui/material';
-import ProfilBackground from './ProfilBackground/ProfilBackground';
 
 const Profil = () => {
    // Function to open file 'Mon CV'
@@ -26,8 +27,9 @@ const Profil = () => {
                      <ProfilText />
                   </div>
                   <div className="profil-container__content__profil__aside">
-                     <ProfilAsideTitle />
-                     <ProfilAsideLink openingFile={openingFile} />
+                     <ProfilTitle />
+                     <ProfilLink openingFile={openingFile} />
+                     <ProfilDarkMode />
                   </div>
                </div>
 
