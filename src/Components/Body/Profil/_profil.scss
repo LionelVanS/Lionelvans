@@ -64,6 +64,11 @@
             padding: 1rem;
             border-radius: 10px 10px 50px 10px;
             background-color: rgb($color-primary, 0.8);
+            & > p {
+               font-weight: bold;
+               text-align: end;
+               text-decoration: underline;
+            }
 
             & ul {
                margin: 0.5rem 0;
@@ -97,6 +102,7 @@
    align-items: center;
    transition: margin-right 250ms;
    cursor: pointer;
+   box-shadow: 0.1rem 0.3rem 0.5rem 0.1rem darken($color-primary, 30%);
    & a {
       font-weight: bold;
       margin-right: 1rem;
